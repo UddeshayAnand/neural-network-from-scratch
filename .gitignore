@@ -1,0 +1,21 @@
+# Environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.deps/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Dataset caches and local logs
+/data/
+training_loss.csv
+test_csv_logger.csv
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
